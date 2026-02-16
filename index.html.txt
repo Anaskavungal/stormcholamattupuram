@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Storm Cholamattupuram</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:#111827;
+    padding:15px 40px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+header img{
+    width:80px;
+}
+
+header h1{
+    margin:0;
+    font-size:24px;
+}
+
+nav{
+    background:#1e3a8a;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#facc15;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1508780709619-79562169bc64");
+    background-size:cover;
+    background-position:center;
+    padding:120px 20px;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:42px;
+}
+
+.section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.section h3{
+    color:#3b82f6;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1f2937;
+    padding:25px;
+    width:250px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    color:#aaa;
+}
+
+@media(max-width:768px){
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Storm Logo">
+    <h1>Storm Cholamattupuram</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Events</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Unity • Strength • Brotherhood</h2>
+    <p>Empowering Youth Through Sports & Social Leadership</p>
+</div>
+
+<div class="section">
+    <h3>About Our Club</h3>
+    <p>
+        Storm Cholamattupuram is a dynamic sports and arts club dedicated 
+        to promoting teamwork, discipline and community growth.
+    </p>
+</div>
+
+<div class="section">
+    <h3>Our Activities</h3>
+    <div class="cards">
+        <div class="card">
+            <h4>Sports Events</h4>
+            <p>Football & Cricket tournaments.</p>
+        </div>
+        <div class="card">
+            <h4>Cultural Programs</h4>
+            <p>Festivals and youth celebrations.</p>
+        </div>
+        <div class="card">
+            <h4>Community Support</h4>
+            <p>Social welfare initiatives.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2026 Storm Cholamattupuram | All Rights Reserved
+</footer>
+
+</body>
+</html>
